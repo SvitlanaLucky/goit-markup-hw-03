@@ -9,6 +9,25 @@
     --main-color: #FFFFFF;
 }
 
+h1, h2, h3, h4, p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ol, ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
+button {
+    cursor: pointer;
+}
+
 .list {
     list-style: none;
 }
@@ -20,6 +39,14 @@
 body {
     font-family: var(--primary-font);
     color: var(--primary-text-color);
+}
+
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 /* ------------- logo ------------------ */
@@ -42,6 +69,10 @@ body {
 }
 
 /* ---------------- header ------------------ */
+
+.page-header-container {
+    display: flex;
+}
 
 .menu-link {
     font-weight: 500;
@@ -107,7 +138,6 @@ body {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    cursor: pointer;
     color: var(--main-color);
     background: var(--accent-color);
 }
