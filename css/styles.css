@@ -57,6 +57,7 @@ body {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+    margin-right: 93px;
     color: var(--accent-color);
 }
 
@@ -72,6 +73,21 @@ body {
 
 .page-header-container {
     display: flex;
+    align-items: center;
+}
+
+.page-nav {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu-item:not(:last-child) {
+    margin-right: 51px;
 }
 
 .menu-link {
@@ -85,6 +101,16 @@ body {
 .menu-link:hover,
 .menu-link:focus {
     color: var(--accent-color);
+}
+
+.contacts-header-container {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.contacts-header:not(:last-child) {
+    margin-right: 50px;
 }
 
 .phone-number,
@@ -102,7 +128,6 @@ body {
 .contacts-theme-light {
     color: var(--secondary-text-color);
 }
-
 
 .phone-number:hover,
 .phone-number:focus {
