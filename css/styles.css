@@ -71,6 +71,12 @@ body {
 
 /* ---------------- header ------------------ */
 
+.page-header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #ECECEC;
+}
+
 .page-header-container {
     display: flex;
     align-items: center;
@@ -141,31 +147,41 @@ body {
 
 
 /* ------------------ hero -------------*/
+
+.hero {
+    background-color: #2F303A;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
 .hero-title {
+    width: 696px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
     letter-spacing: 0.06em;
+    align-items: center;
     text-transform: uppercase;
     color: var(--main-color);
-}
-
-.hero {
-    background: #2F303A;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
 }
 
 .modal-btn {
+    border-radius: 4px;
+    min-width: 200px;
+    padding: 10px 32px;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-    display: flex;
     align-items: center;
-    text-align: center;
     letter-spacing: 0.06em;
     color: var(--main-color);
     background: var(--accent-color);
-}
+    border-color: transparent;
+  }
 
 .modal-btn:hover,
 .modal-btn:focus {
