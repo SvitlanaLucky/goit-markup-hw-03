@@ -76,12 +76,13 @@ img {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    margin-right: 93px;
+    
     color: var(--accent-color);
 }
 
 .logo-header {
    color: #000000; 
+   margin-right: 93px;
 }
 
 .logo-footer {
@@ -210,7 +211,7 @@ img {
 
 /* ----------------- content ----------- */
 
-.content {
+.section {
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -227,7 +228,7 @@ img {
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .content-text {
@@ -240,7 +241,7 @@ img {
 }
 
 .img-box {
-    padding-bottom: 94px;
+    padding-top: 0px;
 }
 
 .img-box-container {
@@ -263,14 +264,9 @@ img {
     background-color: #F5F4FA;
 }
 
-.team-container {
-    padding-top: 94px;
-}
-
 .team-name {
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 94px;
 }
 
 .team-cards {
@@ -311,14 +307,13 @@ img {
 
 .footer {
     background: #2F303A;
-    display: flex;
-    justify-content: flex-start;
     padding-top: 60px;
     padding-bottom: 60px;
 }
 
-.addres-list {
+.address-list {
     font-style: normal;
+    margin-top: 20px;
 }
 
 .street-address {
@@ -326,12 +321,10 @@ img {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: var(--main-color);
-    margin-top: 20px;
-    margin-bottom: 9px;
+    color: var(--main-color);  
 }
 
-.contacts-theme-dark {
+.address:not(:last-child) {
     margin-bottom: 9px;
 }
  
@@ -345,14 +338,16 @@ img {
 .portfolio-container {
     display: flex;
     flex-direction: column;
-    padding-top: 94px;
-    padding-bottom: 94px;
 }
 
 .button-portfolio {
     display: flex;
-    margin-bottom: 34px;
+    margin-bottom: 50px;
     justify-content: center;
+}
+
+.portfolio-nav:not(:last-child) {
+    margin-right: 8px;
 }
 
 .portfolio-btn {
@@ -365,7 +360,6 @@ img {
     background-color: #F5F4FA;
     border-radius: 4px;
     border-color: transparent;
-    margin-right: 8px;
 }
 
 .portfolio-btn:hover,
@@ -382,8 +376,8 @@ img {
 
 .portfolio-box {
     border: 1px solid #EEEEEE;
-    padding-left: 24px;
-    padding-right: 24px;
+    border-top: transparent;
+    padding: 24px 20px;
 }
 
 .portfolio-title {
@@ -391,7 +385,6 @@ img {
     font-size: 18px;
     line-height: 2.0;
     letter-spacing: 0.06em;
-    padding-top: 20px;
     margin-bottom: 4px;
 }
 
@@ -401,5 +394,4 @@ img {
     line-height: 1.88;
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
-    padding-bottom: 20px;
 }
