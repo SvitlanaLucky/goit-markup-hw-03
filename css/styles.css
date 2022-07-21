@@ -76,13 +76,13 @@ img {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    
     color: var(--accent-color);
+    margin-right: 93px;
 }
 
 .logo-header {
    color: #000000; 
-   margin-right: 93px;
+   
 }
 
 .logo-footer {
@@ -306,12 +306,12 @@ img {
 /* ------------ footer ------------ */
 
 .footer {
-    background: #2F303A;
+    background-color: #2F303A;
     padding-top: 60px;
     padding-bottom: 60px;
 }
 
-.address-list {
+.address {
     font-style: normal;
     margin-top: 20px;
 }
@@ -324,7 +324,7 @@ img {
     color: var(--main-color);  
 }
 
-.address:not(:last-child) {
+.address-list:not(:last-child) {
     margin-bottom: 9px;
 }
  
@@ -334,11 +334,6 @@ img {
 }
 
 /* ---------------- portfolio ------------- */
-
-.portfolio-container {
-    display: flex;
-    flex-direction: column;
-}
 
 .button-portfolio {
     display: flex;
